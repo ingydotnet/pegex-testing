@@ -1,0 +1,9 @@
+all-rules: rgx1 rgx2 rgx3 all1 all2 all3
+
+rgx1: /x/
+rgx2: /(x)/
+rgx3: /x/
+
+all1: rgx1 rgx1
+all2: rgx2 rgx2
+all3: rgx3 rgx3
